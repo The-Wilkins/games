@@ -11,6 +11,6 @@ function getRandomColor() {
   return color;
 };
 
-button.onclick = function {
+button.onclick = function() {
   document.body.style.background = getRandomColor();
 };
