@@ -1,5 +1,3 @@
-var container = document.getElementById("container");
-container.innerhtml = "<button type='button' id='button'>Change Color</button>";
 var button = document.getElementById("button");
 
 function getRandomColor() {
